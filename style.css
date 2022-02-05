@@ -3,9 +3,6 @@ body{
     background-color: orangered;
     text-align: center;
 }
-h1{
-    color: white;
-}
-p{
-    color: white;
+h1.p{
+color: #fff;
 }
