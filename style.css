@@ -14,9 +14,9 @@ div.head{
     height: 100px;
 }
 h2:hover{
+    border: 5px;
     color: aqua;
     transition: 0.5s;
-    border: 5px;
 }
 
 
