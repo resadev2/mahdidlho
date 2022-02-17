@@ -7,7 +7,7 @@ h1.p{
 color: #fff;
 }
 div{
-    justify-content: center;
+    text-align: center;
     background-color: aqua;
     width: 100px;
     height: 100px;
