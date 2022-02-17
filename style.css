@@ -15,6 +15,8 @@ div.head{
 }
 h2:hover{
     color: aqua;
+    transition: 0.5s;
 }
+
 
 
