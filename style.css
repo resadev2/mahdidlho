@@ -13,5 +13,8 @@ div.head{
     width: 100px;
     height: 100px;
 }
+h1:hover{
+    color: aqua;
+}
 
 
