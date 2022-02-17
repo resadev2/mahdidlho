@@ -8,7 +8,7 @@ color: #fff;
 }
 div.head{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: aqua;
     width: 100px;
     height: 100px;
