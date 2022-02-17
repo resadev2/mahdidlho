@@ -7,8 +7,8 @@ h1.p{
 color: #fff;
 }
 div{
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
     background-color: aqua;
     width: 100px;
     height: 100px;
