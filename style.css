@@ -6,14 +6,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 50px;
   height: 100%;
   margin: 0;
   background: gray;
+
 }
 
 .form {
   padding: 30px;
-  margin-top: 50px;
   border-radius: 5px;
   background-color: aliceblue;
 }
