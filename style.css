@@ -1,23 +1,53 @@
-
-body{
-    background-color: orangered;
-    text-align: center;
-}
-h1.p{
-color: #fff;
-}
-div.head{
-    display: flex;
-    flex-direction:column;
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-}
-h2:hover{
-    border: 5px;
-    color: aqua;
-    transition: 0.5s;
+html {
+  height: 100%;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+  background: gray;
+}
 
+.form {
+  padding: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  background-color: aliceblue;
+}
 
+.box {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 2px;
+  background-color: darkgray;
+}
+
+.input1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5%;
+  width: 96.5%;
+  border-radius: 1.5px;
+  border: none;
+}
+
+/* #phone {
+  margin-left: 14px;
+} */
+
+/* #date {
+  text-align: center;
+} */
+
+#select {
+  background-color: #fff;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}

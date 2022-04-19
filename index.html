@@ -1,21 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>hello word</h1>
-    <p>first training</p>
-    <h2>My Name is Mahdi Mohammadi</h2>
-    <div class="head"></div>
-    <div class="head"></div>
-    <div class="head"></div>
-    <div class="head"></div>
-    <div class="head"></div>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form">
+      <form
+        class="login"
+        action="results.html"
+        method="GET"
+        enctype="multipart/form-data"
+      >
+        <div class="box">
+          <lable for="name">User Name</lable>
+          <input
+            class="input1"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter User Name"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label for="phone">Tell</label>
+          <input
+            class="input1"
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Enter Number"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <lable for="email">Email</lable>
+          <input
+            class="input1"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label for="date">BirthDay</label>
+          <input
+            class="input1"
+            id="dat"
+            type="date"
+            name="birthday"
+            value="birthday"
+            max="2019-12-31"
+          />
+        </div>
+
+        <div class="box">
+          <label for="password">Password</label>
+          <input
+            class="input1"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Password"
+            min="8"
+            max="255"
+            required
+          />
+        </div>
+
+        <div class="box">
+          <label for="eyeColor">Eye Color</label>
+          <select class="input1" id="select">
+            <option value="cyan">cyan</option>
+            <option label="red" value="red"></option>
+            <option label="blue" value="blue"></option>
+            <option label="green" value="green"></option>
+            <option label="yellow" value="yellow"></option>
+            <option label="black" value="black"></option>
+            <option label="orange" value="orange"></option>
+            <option label="grey" value="grey"></option>
+            <option label="pink" value="pink"></option>
+            <option label="white" value="white"></option>
+            <option label="purple" value="purple"></option>
+            <option label="brown" value="brown"></option>
+            <option label="teal" value="teal"></option>
+            <option label="navy" value="navy"></option>
+            <option label="indigo" value="indigo"></option>
+          </select>
+        </div>
+
+        <input type="hidden" name="hidden" value="hi" />
+
+        <div class="box">
+          <label for="Color">Color</label>
+          <input class="input1" type="color" name="color" id="Color" />
+        </div>
+
+        <div class="box">
+          <label for="file">Insert File</label>
+          <input type="file" id="file" name="file" />
+        </div>
+
+        <div class="box">
+          <label for="bio">Bio</label>
+          <textarea class="input1" id="bio" name="bio"></textarea>
+        </div>
+
+        <div class="button">
+          <button id="reset" type="reset">reset</button>
+          <button id="submit" type="submit">submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
