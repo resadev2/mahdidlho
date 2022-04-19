@@ -13,6 +13,7 @@ body {
 
 .form {
   padding: 30px;
+  margin: 50px;
   border-radius: 5px;
   background-color: aliceblue;
 }
